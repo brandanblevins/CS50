@@ -3,9 +3,17 @@
 
 int main(void)
 {
+    // Prompt user for x.
     int x = get_int("x: ");
+
+    // Prompt user for y.
     int y = get_int("y: ");
-    printf("%i\n", x + y);
+    
+    // Divide x by y.
+    float z = x / y;
+
+    // Perform addition.
+    printf("%i\n", z);
 }
 
 // %i = gives you a variable for an integer.
