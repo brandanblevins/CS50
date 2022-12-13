@@ -3,9 +3,10 @@
 
 int main(void)
 {
+    const int mine = 2; // const = constant = means it won't change later
     int points = get_int("How many points did you lose? ");
 
-    if (points < 2)
+    if (points < mine)
     {
         printf("You lost fewer points than me.\n");
     }
