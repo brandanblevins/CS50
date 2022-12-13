@@ -6,7 +6,7 @@ int main(void)
     int n = get_int("n: ");
 
     // If n is even
-    if (???)
+    if (n % 2 == 0) // == is the equality operator, which means it is equal to the value.
     {
         printf("even\n");
     }
