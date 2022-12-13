@@ -11,7 +11,7 @@ int main(void)
     {
         printf("Agreed.\n");
     }
-    else if (c == 'n')
+    else if (c == 'n' || c == 'N') // Used single quotes instead of double quotes here because we are using a single char here.
     {  
         printf("Not agreed.\n");
     }
