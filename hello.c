@@ -11,3 +11,7 @@ int main(void)
     string answer = get_string("What's your name? ");
     printf("hello, %s\n", answer);
 }
+
+int counter = 0;
+counter += 1; // Adds 1 to counter.
+counter++; // Also adds 1 to counter.
