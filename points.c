@@ -11,6 +11,6 @@ int main(void)
     }
     else
     {
-        printf("You lost more points than me.\n")
+        printf("You lost more points than me.\n");
     }
 }
