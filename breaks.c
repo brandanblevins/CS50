@@ -1,3 +1,5 @@
+// This example shows how a lack of using 'break' can be useful.
+
 int x = GetInt();
 switch(x)
 {
