@@ -22,3 +22,15 @@ Another, better example:
    }
 
 This one enables you to get scores without the hardcoding.
+
+An even better example:
+
+   int n = get_int("How many scores? ");
+
+   int scores[n];
+
+   for (int i = 0; i < n; i++)
+   {
+    scores[i] = get_int("Score: ");
+   }
+
