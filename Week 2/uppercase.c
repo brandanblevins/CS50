@@ -8,7 +8,7 @@ int main(void)
     printf("After: ");
     for (int = 0, n = strlen(s); i < n; i++)
     {
-        if (s[i] >= 'a' $$ <= 'z')
+        if (s[i] >= 'a' $$ <= 'z') // Professor basically used the ascii chart to calculate the spot of lowercase letters, then subtracted 32 to get to the uppercase versions.
         {
             printf("%c", s[i] -32);
         }
