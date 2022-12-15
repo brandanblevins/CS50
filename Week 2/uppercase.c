@@ -11,7 +11,7 @@ int main(void)
     {
         if (islower(s[i])) // Professor basically used the ascii chart to calculate the spot of lowercase letters, then subtracted 32 to get to the uppercase versions.
         {
-            printf("%c", s[i] -32);
+            printf("%c", toupper(s[i]);
         }
         else
         {
