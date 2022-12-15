@@ -3,5 +3,12 @@
 
 int main(int argc, string argv[])
 {
-    printf("hello, %s", argv[0]);
+    if (argc == 2)
+    {
+    printf("hello, %s\n", argv[1]); // argv[] is picking out the word in order of it being input?
+    }
+    else
+    {
+        printf("hello, world\n");
+    }
 }
