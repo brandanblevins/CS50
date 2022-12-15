@@ -43,3 +43,9 @@ New header file this week:
 
 #include <string.h>
 Adds function 'strlen' in C.
+
+
+
+For int main(void), the void means it does not take commain line arguments.
+
+If you change it to int main(int argc, string argv[]) , this now takes command line arguments.
