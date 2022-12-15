@@ -1,3 +1,12 @@
 arrays = enables you to store a number of integers while only referring to a single variable.
 This allows you to avoid the problem with hardcoding several int variables as shown in scores.c.
 
+Example:
+
+int scores[3];
+
+scores[0] = 72;
+
+scores[1] = 73;
+
+scores[2] = 33;
