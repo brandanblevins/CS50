@@ -37,3 +37,9 @@ An even better example:
 
 
 You can convert strings into integers by using arrays.
+
+
+New header file this week:
+
+#include <string.h>
+Adds function 'strlen' in C.
