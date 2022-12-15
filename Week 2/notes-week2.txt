@@ -49,3 +49,11 @@ Adds function 'strlen' in C.
 For int main(void), the void means it does not take commain line arguments.
 
 If you change it to int main(int argc, string argv[]) , this now takes command line arguments.
+
+
+
+Exit status
+
+To quit a program, you should return a non-zero value from main.
+return 1
+If all is well, return 0.
