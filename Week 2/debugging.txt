@@ -1,0 +1,5 @@
+printf() is a wonderful tool for debugging, according to the professor.
+
+In the buggy.c file, he used this line: printf("i is %i\n", i);
+to do some debugging.
+It brought up items like: "i is 0" and "i is 1"
