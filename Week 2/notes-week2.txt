@@ -10,3 +10,15 @@ scores[0] = 72;
 scores[1] = 73;
 
 scores[2] = 33;
+
+
+Another, better example:
+
+   int scores[3];
+
+   for (int i = 0; i < 3; i++)
+   {
+    scores[i] = get_int("Score: ");
+   }
+
+This one enables you to get scores without the hardcoding.
