@@ -1,0 +1,3 @@
+arrays = enables you to store a number of integers while only referring to a single variable.
+This allows you to avoid the problem with hardcoding several int variables as shown in scores.c.
+
