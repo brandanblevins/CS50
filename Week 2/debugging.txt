@@ -7,3 +7,6 @@ It brought up items like: "i is 0" and "i is 1"
 debug50 is a debugger built into VSCode. (It is not exclusive to CS50.)
 You must mention the already compiled code to use debug50.
 'debug50 ./buggy'
+
+Beyond printf and debugging/debug50, use the rubber duck technique, which is talking through your code out loud to a rubber duck.
+Talking through the code inevitably reveals problems.
