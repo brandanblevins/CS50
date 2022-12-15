@@ -34,3 +34,6 @@ An even better example:
     scores[i] = get_int("Score: ");
    }
 
+
+
+You can convert strings into integers by using arrays.
