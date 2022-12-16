@@ -4,9 +4,7 @@
 #include <cs50.h>
 
 bool valid_triangle();
-bool side_1_2();
-bool side_2_3();
-bool side_1_3();
+bool check_sides();
 
 bool main(void)
 {
@@ -14,10 +12,17 @@ bool main(void)
     int side_2 = get_int("Give me the second side: ");
     int side_3 = get_int("Give me the third side: ");
 
-    return valid_triangle;
+    bool valid_triangle;
+
+    if (valid-triangle = true);
+    {
+        printf("This is a valid triangle!!\n");
+    } else {
+        printf("This is not a valid triangle!\n");
+    }
 }
 
-bool side_1_2();
+bool check_sides();
 {
-
+    
 }
