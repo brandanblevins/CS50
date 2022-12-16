@@ -1,0 +1,6 @@
+So far all the programs we've been writing have been inside main().
+
+A function is a black box with 0+ inputs and 1 ouptut.
+func(a, b, c) has three inputs, and one output.
+
+Why do we call it a black box? If we aren't writing the functions ourselves, we don't need to know how it is implemented under the hood.
