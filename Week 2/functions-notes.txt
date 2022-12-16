@@ -26,3 +26,27 @@ The sum of two integers is going to be an integer as well.
 Example of a function that mutliplies two floating point numbers.
 float mult_two_floats(float x, float y);
 
+
+The function definition looks almost identical to a function declaration.
+float mult_two_floats(float x, float y);
+{
+    float product = x * y;
+    return product;
+}
+
+Return indicates the output from the black box.
+
+You could also just do return x * y; in the curly braces.
+
+
+Exercise: take a moment and try to define the add_two_ints from above.
+
+int add_two_ints(int a, int b);
+
+int add_two_ints(int a, int b);
+{
+    int sum = a + b; // Calculate the variable.
+    return sum; // Output the addition.
+}
+
+I was wrong:
