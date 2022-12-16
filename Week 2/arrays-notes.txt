@@ -50,7 +50,7 @@ Arrays are passed by reference. The callee receives the actual array, NOT a loca
 
 
 
-// Exercise
+// Exercise, what gets printed?
 
 void set_array(int_array[4]);
 void set_int(int x);
@@ -73,3 +73,8 @@ void set_int(int x)
 {
     x = 22;
 }
+
+// Answer to exercise.
+
+10 22\n
+is what gets printed.
