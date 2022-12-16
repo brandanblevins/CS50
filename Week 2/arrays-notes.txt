@@ -5,3 +5,40 @@ This is one of the major reasons we count from 0!
 
 C will not prevent you from going "out of bounds" of your array, so be careful!
 
+
+Array declarations, there are three parts:
+
+type name[size];
+
+The type is what kind of varialble each element of the array will be (like int).
+The name is what you want to call your array.
+The size is how many elements you would like your array to contain.
+
+Example:
+
+bool truthtable[10];
+
+truthtable[2] = false; // This is actually the third element, counting from 0.
+if(truthtable[7] == true)
+{
+    printf("TRUE!\n);
+}
+truthtable[10] = true;
+
+
+
+// instantiation syntax
+bool truthtable[3] = { false, true, true };
+
+//individual element syntax
+bool truthtable[3];
+truthtable[0] = false;
+truthtable[1] = true;
+truthtable[2] = true;
+
+
+Arrays can consist of more than a single dimension. You can have as many size specifiers as you wish.
+
+bool battleship[10][10];
+// This could be a 10x10 grid of cells.
+
