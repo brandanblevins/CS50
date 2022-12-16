@@ -19,19 +19,35 @@ int main(void)
     int score2 = compute_score(word2);
 
     // TODO: Print the winner
-        if (score1 > score2)
+    if (score1 > score2)
     {
         printf("Player 1 wins!\n");
     } else if (score2 > score1)
     {
         printf("Player 2 wins!\n");
-    } else if (score2 == score1)
+    } else (score2 == score1)
     {
-        printf("It's a tie!\n");
+        printf("Tie!\n");
     }
 }
 
 int compute_score(string word)
 {
-    // TODO: Compute and return score for string
+    // Keep track of score.
+    int score = 0;
+
+    // Compute score for each character.
+    for (int i = 0, len = strlen(word); i < len; i++)
+    {
+        if (isupper(word[i]))
+        {
+            score += POINTS[word[i] - 'A']; // The brackets are basically taking the character of the current word and subtracting by a/65 in ascii to determine a score for the letter.
+        }
+        else if (islower(word[i]))
+        {
+            score += POINTS[word[i] - 'a']; // Same thing for lowercase letters. Lowercase a is 97 in ascii.
+        }
+    }
+
+    return score;
 }
