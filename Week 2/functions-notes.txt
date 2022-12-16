@@ -49,4 +49,3 @@ int add_two_ints(int a, int b);
     return sum; // Output the addition.
 }
 
-I was wrong:

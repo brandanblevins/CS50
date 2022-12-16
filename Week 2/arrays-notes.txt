@@ -1,0 +1,7 @@
+Arrays are used to hold values of the same type at contiguous memory locations.
+
+In C, the elements of an array are indexed starting from 0.
+This is one of the major reasons we count from 0!
+
+C will not prevent you from going "out of bounds" of your array, so be careful!
+
